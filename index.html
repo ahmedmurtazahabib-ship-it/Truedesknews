@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>True Desk News</title>
+<meta name="description" content="Lahore business updates delivered daily." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">True Desk <span>News</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-sm" href="subscribe.html">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container grid-2">
+    <div class="hero-copy">
+      <h1 class="display">Lahore Business Updates Delivered <span class="underline">Daily</span></h1>
+      <p class="lead">Stay informed with the latest business insights and updates from Lahore's bustling markets, delivered directly to you every day.</p>
+      <div class="actions">
+        <a class="btn btn-lg" href="subscribe.html">Get Daily Updates</a>
+        <a class="btn btn-text" href="news.html">Browse Headlines</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="card photo"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Latest Headlines</h2>
+    <div class="cards grid-3">
+      <a class="card link" href="news.html">
+        <div class="card-img placeholder"></div>
+        <div class="card-body">
+          <h3>Market Pulse</h3>
+          <p class="muted">Daily summary of wholesale &amp; retail trends across Lahore.</p>
+        </div>
+      </a>
+      <a class="card link" href="news.html">
+        <div class="card-img placeholder"></div>
+        <div class="card-body">
+          <h3>Startup Spotlight</h3>
+          <p class="muted">Interviews and funding updates from founders you should know.</p>
+        </div>
+      </a>
+      <a class="card link" href="news.html">
+        <div class="card-img placeholder"></div>
+        <div class="card-body">
+          <h3>Policy &amp; Regulation</h3>
+          <p class="muted">New rules, taxes and policies that impact local businesses.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container grid-3">
+    <div>
+      <div class="brand brand-footer">True Desk <span>News</span></div>
+      <p class="muted">Lahore business updates delivered daily.</p>
+    </div>
+    <div>
+      <h4>Pages</h4>
+      <ul class="link-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Subscribe</h4>
+      <p class="muted">Get a daily digest of key business headlines from Lahore.</p>
+      <form class="inline-form" onsubmit="return false;">
+        <input type="email" placeholder="you@example.com" aria-label="Email">
+        <button class="btn">Get Updates</button>
+      </form>
+    </div>
+  </div>
+  <div class="container tiny muted copyright">© <span id="year"></span> True Desk News. All rights reserved.</div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
